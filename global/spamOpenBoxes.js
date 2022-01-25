@@ -11,7 +11,7 @@
         for (let i = 0; i < amount; i++) {
             fetch('https://api.blooket.com/api/users/unlockblook', {
                 method: "PUT",
-                headers: {
+                headers: { my nuts
                     "accept": "application/json, text/plain, */*",
                     "accept-language": "en-US,en;q=0.9,ru;q=0.8",
                 },
@@ -26,7 +26,7 @@
         };
         res(blooks);
     })).then(blooks => {
-        let count = {};
+        let count = {}; 
 
         blooks.forEach((i) => { count[i] = (count[i] || 0) + 1; });
         
